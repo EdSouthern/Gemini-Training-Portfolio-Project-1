@@ -6,6 +6,9 @@
     border: none;
 }
 
+#heroimage {
+    background-image: url('../images/Hero-image\ 2.jpeg');
+}
 
 /* Top of page - Navigation Bar and Logo */
 header {
