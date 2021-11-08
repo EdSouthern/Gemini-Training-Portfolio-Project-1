@@ -6,10 +6,6 @@
     border: none;
 }
 
-#heroimage {
-    background-image: url('../images/Hero-image\ 2.jpeg');
-}
-
 /* Top of page - Navigation Bar and Logo */
 header {
     position: fixed;
@@ -46,4 +42,15 @@ margin-right: 20px;
 }
 #menu a:hover {
     border-color: white;
+}
+
+/* Headline section and background imnage */
+
+#content { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
 }
