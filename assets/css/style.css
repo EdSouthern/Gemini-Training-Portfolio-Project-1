@@ -6,6 +6,16 @@
     border: none;
 }
 
+/* Background image */
+html {
+    min-height: 100%;
+    background-image: url('../images/hero-image-coloured.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+ }
+
 /* Top of page - Navigation Bar and Logo */
 header {
     position: fixed;
@@ -22,6 +32,7 @@ header {
     font-weight: 800;
     text-decoration: none;
     margin-left: 20px;
+    color: rgb(255,215,0);
 }
 
 #menu ul {
@@ -39,13 +50,13 @@ margin-right: 20px;
     border-style: solid;
     border-color: transparent;
     padding: 5px;
+    color: #fff;
 }
 #menu a:hover {
     border-color: white;
 }
 
 /* Headline section and background imnage */
-
 #content { 
     position: absolute;
     width: 100%;
@@ -53,4 +64,13 @@ margin-right: 20px;
     top: 50%;
     bottom: 50%;
     text-align: center;
+}
+
+#headline{
+    color: #fff;
+}
+
+#headline a {
+    color: rgb(255,215,0);
+
 }
