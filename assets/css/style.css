@@ -2,8 +2,8 @@
 
 * { 
     margin: 0;
-    padding: 0;
     border: none;
+    padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
@@ -116,6 +116,8 @@ footer ul li {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
 }
 
 #about-section{
@@ -131,14 +133,17 @@ footer ul li {
     font-weight: 300;
 }
 
+#about-section li {
+    font-size: 18px;
+} 
+
 #about-section a {
     color: rgb(255,215,0);
     text-decoration: none;
 }
 
-#principles {
-    color: red;
-}
+
+
 /* Sign up form */
 
 .form-section {
@@ -194,4 +199,26 @@ footer ul li {
     background-color: black;
     color:rgb(255,215,0);
     
+}
+
+
+@media screen and (max-width:480px) {
+
+#about-content {
+    top: 50%;
+}
+
+#about-section h2 {
+    font-size: 1.5rem;
+}
+
+#about-section h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#about-section li {
+    font-size: 0.8rem;
+}
+
 }
