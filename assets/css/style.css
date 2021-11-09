@@ -56,7 +56,7 @@ margin-right: 20px;
     border-color: white;
 }
 
-/* Headline section and background imnage */
+/* Headline section and background image */
 #content { 
     position: absolute;
     width: 80%;
@@ -108,6 +108,37 @@ footer ul li {
     margin: 0 20px;
 }
 
+/* About page */
+
+#about-content { 
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about-section{
+    color: #fff;
+}
+
+#about-section h2 {
+    font-size: 2.5rem;
+}
+
+#about-section h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#about-section a {
+    color: rgb(255,215,0);
+    text-decoration: none;
+}
+
+#principles {
+    color: red;
+}
 /* Sign up form */
 
 .form-section {
