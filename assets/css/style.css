@@ -13,6 +13,7 @@ body {
     position: absolute;
     height: 100vh;
     width: 100vw;
+    top: 0;
  }
 
 /* Top of page - Navigation Bar and Logo */
@@ -23,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 0;
 }
 
 #logo {
@@ -87,14 +89,18 @@ margin-right: 20px;
 
 footer {
     position: absolute;
-    bottom: 50px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
+    bottom: 0;
+    height: 100px;
 }
 
 footer ul {
     display: flex;
+    margin: 0;
+    align-items: center;
 }
 
 footer ul li {
@@ -113,11 +119,14 @@ footer ul li {
 #about-content { 
     position: absolute;
     width: 80%;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(60, 60, 60, 0.6);
     padding: 15px;
+    box-sizing: border-box;
 }
 
 #about-section{
