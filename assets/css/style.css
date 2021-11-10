@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
 
-* { 
-    margin: 0;
-    border: none;
-    padding: 0;
+body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Background image */
@@ -51,6 +50,7 @@ margin-right: 20px;
     border-color: transparent;
     padding: 5px;
     color: #fff;
+    white-space: nowrap;
 }
 #menu a:hover {
     border-color: white;
@@ -113,11 +113,11 @@ footer ul li {
 #about-content { 
     position: absolute;
     width: 80%;
-    top: 40%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 15px;
 }
 
 #about-section{
@@ -201,8 +201,13 @@ footer ul li {
     
 }
 
+/* Media queries */
 
 @media screen and (max-width:480px) {
+
+#menu a { 
+    font-size: 1rem;
+}
 
 #about-content {
     top: 50%;
