@@ -1,5 +1,5 @@
 # Gemini Fitness Project
-[view the live project here] (link to site)
+view the live project here https://edsouthern.github.io/Gemini-Training-Portfolio-Project-1/index.html
 
 This is the main marketing site for Gemini Fitness. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
 
