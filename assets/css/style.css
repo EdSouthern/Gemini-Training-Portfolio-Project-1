@@ -151,6 +151,28 @@ footer ul li {
     text-decoration: none;
 }
 
+/* Our-Gyms */
+
+.gyms-row {
+    display: flex;
+}
+
+.gyms-row p {
+    color: white;
+}
+
+#gyms-div img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    max-width: calc((100vw - 120px)/3);
+}
+
+.gym {
+    text-align: center;
+    margin: 20px;
+}
+
 
 
 /* Sign up form */
@@ -242,6 +264,16 @@ footer ul li {
 #logo {
     font-size: 1.5rem;
 }
+
+#gyms-div img {
+    max-width: none;
+    height: 100px;
+    width: 300px;
+}
+
+.gym-row {
+    flex-direction: column;
+}
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
@@ -257,5 +289,13 @@ footer ul li {
     
     #about-section li {
         font-size: 1rem;
+    }
 }
+
+#gyms-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
