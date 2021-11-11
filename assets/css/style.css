@@ -155,6 +155,7 @@ footer ul li {
 
 .gyms-row {
     display: flex;
+    justify-content: center;
 }
 
 .gyms-row p {
@@ -172,8 +173,6 @@ footer ul li {
     text-align: center;
     margin: 20px;
 }
-
-
 
 /* Sign up form */
 
@@ -236,44 +235,50 @@ footer ul li {
 
 @media screen and (max-width:480px) {
 
-#menu a { 
-    font-size: 1rem;
-}
+    #menu a { 
+        font-size: 1rem;
+    }
 
-#about-content {
-    top: 50%;
-}
+    #about-content {
+        top: 50%;
+    }
 
-#about-section h2 {
-    font-size: 1.5rem;
-}
+    #about-section h2 {
+        font-size: 1.5rem;
+    }
 
-#about-section h3 {
-    font-size: 1rem;
-    font-weight: 300;
-}
+    #about-section h3 {
+        font-size: 1rem;
+        font-weight: 300;
+    }
 
-#about-section li {
-    font-size: 0.8rem;
-}
-#menu a {
-    font-size: 0.8rem;
-    
-}
+    #about-section li {
+        font-size: 0.8rem;
+    }
+    #menu a {
+        font-size: 0.8rem;
+        
+    }
 
-#logo {
-    font-size: 1.5rem;
-}
+    #logo {
+        font-size: 1.5rem;
+    }
 
-#gyms-div img {
-    max-width: none;
-    height: 100px;
-    width: 300px;
-}
+    #gyms-div img {
+        height: 100px;
+        width: 300px;
+        max-width: 80%;
+    }
 
-.gym-row {
-    flex-direction: column;
-}
+    .gyms-row {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: unset;
+        margin: 20px 0;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
@@ -297,5 +302,6 @@ footer ul li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
