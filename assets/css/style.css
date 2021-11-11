@@ -178,17 +178,18 @@ footer ul li {
 /* Sign up form */
 
 .form-section {
-    clear: left;
-    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    overflow-y: auto;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
+    margin: 0;
+    max-height: 50vh;
     padding: 10px;
 }
 
@@ -213,10 +214,6 @@ footer ul li {
 
 .radio-input {
     margin: 5px;
-}
-
-.radio-input-label {
-
 }
 
 .sign-up-button {

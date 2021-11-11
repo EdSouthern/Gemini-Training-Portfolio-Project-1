@@ -1,9 +1,11 @@
 # Gemini Fitness Project
-view the live project here https://edsouthern.github.io/Gemini-Training-Portfolio-Project-1/index.html
+View the live project here https://edsouthern.github.io/Gemini-Training-Portfolio-Project-1/index.html
 
 This is the main marketing site for Gemini Fitness. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
 
-![Preview of the Gemini Fitness site on 3 diferent sized devices](img url)
+![Website preview](home-page.png)
+![Wesbite preview on phone](home-page-phone.png)
+![Website preview on phone landscape](home-page-phone-landscape.png)
 
 ## User Experience (UX)
 
@@ -38,6 +40,13 @@ This is the main marketing site for Gemini Fitness. It is designed to be respons
 - Nav Bar
     - Featured on all 4 pages, fully responsive including a link to the landing page via the logo as well as the 3 other pages. This allows easy navigation throught the webpage without having to use the back button on all devices. 
 
+    ![Preview of nav bar](nav-bar.png)
+
+-   Footer
+    - Featured on all 4 pages with links to social media services to enable and encourage the user to engage with these media accounts.
+
+    ![Preview]()
+
 - Landing page
     - A bold and aesthetically pleasing landing page to set the tone to the user of a a proffesional personal training service. It clearly commuincates to the user what Gemini Fitness is but leaves them wanting to learn more by progessing further through the webpage.
 
@@ -61,16 +70,16 @@ This is the main marketing site for Gemini Fitness. It is designed to be respons
 ## Testing
 
 - Html
-    - No erros were returned when passing through the offical link 
-- CSS
-    - No erros were returned when passing through the offical link 
+    - No erros were returned when passing through the Nu html checker  [https://validator.w3.org/nu/?doc=https%3A%2F%2Fedsouthern.github.io%2FGemini-Training-Portfolio-Project-1%2Fabout.html]
 
-In additon to this I also throughly tested the responsivness and working of the webpage and didn't find any issues. I tested the resposviness on different devices using responsinator.com here is the output. 
+- CSS
+    - No erros were returned when passing through the W3C validator. [https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fedsouthern.github.io%2FGemini-Training-Portfolio-Project-1%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en]
+
+In additon to this I also throughly tested the responsivness and working of the webpage and didn't find any issues. I tested the resposviness on different devices using responsinator.com.
 
 ## Deployment
 
-The site was deployed using Github pages. The live link can be found here (link)
-
+The site was deployed using Github pages. The live link can be found here [https://edsouthern.github.io/Gemini-Training-Portfolio-Project-1/index.html]
 
 ## Credits
 
@@ -81,8 +90,8 @@ The site was deployed using Github pages. The live link can be found here (link)
     - I used the tutorial from the love running project to help create my form element. 
 
 - Media
-    - My background images were all from pexely. 
-    - The images in gallery page are from unsplash. 
+    - My background images were all from pexels.[https://www.pexels.com/] 
+    - The images in gallery page are from unsplash. [https://unsplash.com/]
 
 
 
