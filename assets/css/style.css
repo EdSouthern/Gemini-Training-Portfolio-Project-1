@@ -189,7 +189,7 @@ footer ul li {
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 30px;
+    padding: 10px;
 }
 
 .signup-form > h2 {
@@ -213,6 +213,10 @@ footer ul li {
 
 .radio-input {
     margin: 5px;
+}
+
+.radio-input-label {
+
 }
 
 .sign-up-button {
@@ -279,6 +283,11 @@ footer ul li {
         flex-direction: column;
         justify-content: unset;
         margin: 20px 0;
+    }
+
+    .radio-input-label {
+        font-size: smaller;
+    
     }
 }
 
